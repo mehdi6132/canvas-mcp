@@ -12,6 +12,12 @@ Currently configured for Fontys. Other institutions can be added via the `CANVAS
 
 ## Setup
 
+**Option 1: one-click install**
+
+Download `canvas-mcp-1.1.0.dxt` from [releases](https://github.com/mehdi6132/canvas-mcp/releases) and open it in Claude Desktop.
+
+**Option 2: manual**
+
 ```bash
 git clone https://github.com/mehdi6132/canvas-mcp
 cd canvas-mcp
