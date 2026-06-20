@@ -1,4 +1,4 @@
-name: Release Extension
+﻿name: Release Extension
 
 on:
   push:
@@ -32,11 +32,11 @@ jobs:
 
       - name: Rename extension file
         run: |
-          mv *.dxt canvas-study-buddy-${{ steps.version.outputs.VERSION }}.dxt || true
+          mv *.dxt canvas-mcp-${{ steps.version.outputs.VERSION }}.dxt || true
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            canvas-study-buddy-*.dxt
+            canvas-mcp-*.dxt
           generate_release_notes: true
